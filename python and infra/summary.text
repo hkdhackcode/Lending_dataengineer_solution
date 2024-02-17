@@ -1,0 +1,21 @@
+Dear ${Recipient},
+
+We hope this email finds you well. Here is the summary of operational activities for the week ending ${date}.
+
+1.Loan Approvals and Disbursements:
+
+ - Number of new loans approved: ${loan_issued}
+ - Total loan amount disbursed: ${total_amount_issued}
+
+2. Repayment Status:
+
+- Number of loans paid in full: ${loan_paid}
+- Total loan amount received: ${amount_paid}
+
+To provide a comprehensive overview of our lending operations, I have attached two files containing data on the overall status of our operations till date. The data is organized by year and month, offering insights into various key metrics.
+- One file presents a yearly summary of our lending operations, including key performance indicators and metrics for each year.
+- Other file provides a detailed monthly breakdown of our operations, allowing us to analyze trends and patterns over time.
+
+Please take the time to review these files, as they serve as valuable resources for understanding the historical context of our lending activities.
+
+Thank you!

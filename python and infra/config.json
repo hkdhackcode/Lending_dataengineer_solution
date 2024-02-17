@@ -1,0 +1,18 @@
+{
+    "db":{
+        "database" : "cloudwalk", 
+        "user" : "postgres", 
+        "host":"localhost",
+        "password":"12345678",
+        "port":5432
+    },
+    "mail" :{
+        "SMTP_HOST" : "smtp.gmail.com",
+        "SMTP_PORT" : 587, 
+        "SMTP_USERNAME" :"brotherteach59@gmail.com",
+        "SMTP_PASSWORD" : "bcdjaienbpzpsnfp",
+        "SENDER_EMAIL" :"brotherteach59@gmail.com",
+        "team_mail":"harshkumardubey11@gmail.com"
+    } 
+    
+}
