@@ -15,7 +15,7 @@ import pandas as pd
 import os
 
 class MailTemplate:
-    def __init__(self, filename, values):
+    def __init__(self, filename, values = {}):
         self.filename = filename
         self.values = values
 
@@ -50,8 +50,10 @@ def send_mail(config, user_email, subject='', body='', file_attachments = []):
             server.login(config["SMTP_USERNAME"], config["SMTP_PASSWORD"])
             print("Sending mail:")
             server.sendmail(config["SENDER_EMAIL"], user_email, message.as_string())
+            return "Success"
     except:
         print("NOt able to send it.")
+        return "Fail"
 
 
 def send_payment_reminder():
@@ -76,7 +78,7 @@ def send_payment_reminder():
     except psycopg2.Error as e:
         print(f"Error querying due payments: {e}")
 
-def sch
+
 def write_in_excel(output, filename):
     print("Staring to write")
     columns = output[1]

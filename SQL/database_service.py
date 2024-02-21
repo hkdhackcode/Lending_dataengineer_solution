@@ -241,6 +241,8 @@ class Database:
         except psycopg2.Error as e:
             print(f"Error updating status: {e}")
 
+
+
 def calculate_frequency(days_until_due):
     if days_until_due >= 60:
         return 14  # One reminder per two week
